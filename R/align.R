@@ -162,6 +162,7 @@ align <- function(stimuli, pt1 = 0, pt2 = 1,
 #'
 #' @return coordinates
 #' @keywords internal
+#' @importFrom geomorph gpagen
 #'
 procrustes_align <- function(data, ref_img = NULL) {
   n <- dim(data)[3]
